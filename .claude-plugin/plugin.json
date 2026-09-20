@@ -1,0 +1,15 @@
+{
+  "name": "ps-vulnscan",
+  "displayName": "ps-vulnscan — rule-driven security scanning",
+  "version": "1.0.0",
+  "description": "Scan a codebase for real, exploitable vulnerabilities using secure-coding rule packs matched to its own stack. Detects the technologies in use, proposes the rule packs that apply, downloads them from claude-secure-coding-rules, models the app's identities, roles, tenancy and authorization, then reviews the source against those rules — broken access control and IDOR/BOLA first, then injection, SSRF, deserialization, session and auth flaws. Rule-driven grep-and-read by default, optional semgrep. Produces one consolidated markdown report with CVSS per finding. No external scanner service, no MCP server, no exploitation.",
+  "author": {
+    "name": "PEACH STUDIO",
+    "url": "https://www.peachstudio.be"
+  },
+  "homepage": "https://www.peachstudio.be",
+  "repository": "https://github.com/vitorallo/ps-vulnscan",
+  "license": "MIT",
+  "keywords": ["security", "vulnerability-scanning", "appsec", "code-review", "owasp", "owasp-top-10", "idor", "bola", "access-control", "secure-coding", "semgrep", "cwe", "cvss", "sast"],
+  "skills": "./skills/"
+}
